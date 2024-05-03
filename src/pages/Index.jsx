@@ -6,7 +6,12 @@ const movies = [
   { id: 3, title: "The Godfather: Part II", year: 1974 },
   { id: 4, title: "The Dark Knight", year: 2008 },
   { id: 5, title: "12 Angry Men", year: 1957 },
-  // Add more movies to complete the top 100 list
+  { id: 6, title: "Schindler's List", year: 1993 },
+  { id: 7, title: "Pulp Fiction", year: 1994 },
+  { id: 8, title: "The Lord of the Rings: The Return of the King", year: 2003 },
+  { id: 9, title: "The Good, the Bad and the Ugly", year: 1966 },
+  { id: 10, title: "Fight Club", year: 1999 },
+  // Continue adding films up to the 100th
 ];
 
 const Index = () => {
