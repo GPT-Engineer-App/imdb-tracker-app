@@ -24,7 +24,7 @@ const Index = () => {
       <Stack spacing={3} maxW="600px" mx="auto">
         {movies.map(movie => (
           <Flex key={movie.id} p={3} bg="gray.100" borderRadius="md" align="center" justify="space-between">
-            <Text fontSize="lg" fontWeight="semibold">{movie.title} ({movie.year})</Text>
+            <Text fontSize="lg" fontWeight="semibold"><strong>{movie.id}</strong>. {movie.title} ({movie.year})</Text>
             <Checkbox colorScheme="green" />
           </Flex>
         ))}
